@@ -2,7 +2,7 @@
 #include<stdlib.h>
 int main()
 {
-	int i,n,j,key;
+	int i,n,j,key; //Declaring indices, key and size for array operations and later, sorting 
 	FILE *file = fopen("sel.txt","r"); //Enter the file name 
 	fscanf(file,"%d",&n);
 
