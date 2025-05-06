@@ -13,7 +13,7 @@ int main()
 		fscanf(file,"%d",&Arr[i]);
 	}
 	fclose(file);
-
+//Sorting Starts Here
 	for(i=0;i<n-1;i++)
 	{
 		key=i;
