@@ -29,6 +29,8 @@ int main()
 		Arr[key]=Arr[i];
 		Arr[i]=temp;
 	}
+
+	
 	printf("Sorted Array is:\n");
 	for(i=0;i<n;i++)
 	{
